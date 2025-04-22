@@ -1,3 +1,14 @@
+## CS256: Compressed sparse tiles for memory-efficient sparsity
+Official pruning code for **Compressed sparse tiles for memory-efficient sparsity** presented at the Sparse LLM workshop at ICLR 2025.
+
+[Paper Link](https://openreview.net/forum?id=iso0KV2HVq)
+
+Our pruning implementation can be found in `src/llmcompressor/modifiers/obcq/sgpt_tiled_sparsify.py` with the primary CS256 pruning logic defined in the function `compressed_sparse_tile_mask`. Try it out with your own model using our example script: `./examples/cs256/llama3_8b_cs256.py`. 
+
+CUDA kernels coming soon!
+
+Please let us know if you have any questions or issues!
+
 # <img width="40" alt="tool icon" src="https://github.com/user-attachments/assets/f9b86465-aefa-4625-a09b-54e158efcf96" />  LLM Compressor
 `llmcompressor` is an easy-to-use library for optimizing models for deployment with `vllm`, including:
 

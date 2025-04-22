@@ -9,8 +9,8 @@ from llmcompressor.modifiers.quantization import QuantizationModifier
 from llmcompressor.transformers import oneshot
 
 # Configuration
-# MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
-MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
+MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
+# MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 DATASET_ID = "HuggingFaceH4/ultrachat_200k"
 DATASET_SPLIT = "train_sft"
 NUM_CALIBRATION_SAMPLES = 512

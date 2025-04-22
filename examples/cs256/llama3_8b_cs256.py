@@ -8,8 +8,8 @@ from llmcompressor.modifiers.obcq import SparseGPTTiledModifier
 from llmcompressor.transformers import oneshot
 
 # Configuration
-# MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
-MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
+MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
+# MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 # MODEL_ID = "meta-llama/Llama-3.2-1B-Instruct"
 DATASET_ID = "HuggingFaceH4/ultrachat_200k"
 DATASET_SPLIT = "train_sft"
