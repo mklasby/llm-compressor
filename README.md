@@ -1,5 +1,5 @@
-## CS256: Compressed sparse tiles for memory-efficient sparsity
-Official pruning code for **Compressed sparse tiles for memory-efficient sparsity** presented at the Sparse LLM workshop at ICLR 2025.
+## CS256: Compressed sparse tiles for memory-efficient unstructured and semi-structured sparsity
+Official pruning code for **Compressed sparse tiles for memory-efficient unstructured and semi-structured sparsity** presented at the Sparse LLM workshop at ICLR 2025.
 
 [Paper Link](https://openreview.net/forum?id=iso0KV2HVq)
 
