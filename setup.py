@@ -120,11 +120,12 @@ setup(
         "accelerate>=0.20.3,!=1.1.0",
         "pynvml",
         "pillow",
-        (
-            "compressed-tensors==0.9.4"
-            if BUILD_TYPE == "release"
-            else "compressed-tensors>=0.9.5a2"
-        ),
+        "compressed-tensors==0.9.4"
+        # (
+        #     "compressed-tensors==0.9.4"
+        #     if BUILD_TYPE == "release"
+        #     else "compressed-tensors>=0.9.5a2"
+        # ),
     ],
     extras_require={
         "dev": [
